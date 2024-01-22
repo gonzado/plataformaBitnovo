@@ -1,5 +1,5 @@
-import { CURRENCIES_URL, ORDERS_URL } from "@/constants";
-import { httpClientPlugin as http } from "@/plugins/http-client.plugin";
+import { CURRENCIES_URL, ORDERS_URL } from "src/constants";
+import { httpClientPlugin as http } from "src/plugins/http-client.plugin";
 
 export const getCurrencies = async () => {
     const response = await http.get(CURRENCIES_URL);

@@ -1,6 +1,6 @@
 import React, { FC, Fragment, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
-import { type Currency } from "@/types";
+import { type Currency } from "@/components/common/types";
 import { CheckIcon, ChevronIcon } from "@/components/icons";
 import { CurrencyLogo, SearchBar } from "./";
 

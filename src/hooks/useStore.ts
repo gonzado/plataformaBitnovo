@@ -1,4 +1,4 @@
-import { Currency, type Action, type State } from "@/types";
+import { Currency, type Action, type State } from "@/components/common/types";
 import { useReducer } from "react";
 
 const initialState: State = {

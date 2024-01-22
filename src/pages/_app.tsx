@@ -1,5 +1,5 @@
-import Layout from "@/components/Layout.tsx";
-import "@/styles/globals.css";
+import {Layout} from "@/components/common/Layout";
+import "src/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Mulish } from "next/font/google";
 

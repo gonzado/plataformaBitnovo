@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Button, Input, SelectCurrency } from ".";
-import { type Currency } from "@/types";
+import { type Currency } from "@/components/common/types";
 
 interface Props {
     currencies: Currency[];

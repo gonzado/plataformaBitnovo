@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { SearchIcon } from "../icons";
-import { type Currency } from "@/types";
+import { type Currency } from "@/components/common/types";
 
 interface Props {
     onSearch: (value: string) => void;

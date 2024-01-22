@@ -1,6 +1,6 @@
-import { Container, Form } from "@/components/create-payment";
-import { Currency } from "@/types";
-import { getCurrencies } from "@/services/payment.service";
+import { Container, Form } from "@/components/createPayment";
+import { Currency } from "@/components/common/types";
+import { getCurrencies } from "@/src/services/payment.service";
 
 interface Props {
     readonly data: Currency[];
